@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_04_CreateChannel</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>56efbf7c-e8a8-4705-a286-fbf4a9fd9b12</testSuiteGuid>
+   <testCaseLink>
+      <guid>9e851b6d-b977-4b4e-87c2-008525d881cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>24e52583-8b5c-47bf-aaf9-8e58dae71414</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/createChannelWithCSV</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>24e52583-8b5c-47bf-aaf9-8e58dae71414</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿channel_name</value>
+         <variableId>bb6a1244-1bb9-42ad-890f-104cda356d6d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>24e52583-8b5c-47bf-aaf9-8e58dae71414</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>44a157a2-719f-48ae-8d06-f4c3fb8e61e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>24e52583-8b5c-47bf-aaf9-8e58dae71414</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>header</value>
+         <variableId>bb96bb5e-707e-41b4-ba31-95dbbf1f4703</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_05_Changepassword" time="234.433" tests="5" failures="1" errors="0">
+   <testsuite name="TS_05_Changepassword" tests="5" failures="1" errors="0" time="234.433" timestamp="2020-05-25 08:25:46" hostname="XuanNghiem - DESKTOP-OT9E64N.mshome.net" id="Test Suites/data-driven/TS_05_Changepassword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XuanNghiem\\git\\mattermost-katalon-testing\\Reports\\20200525_082538\\data-driven\\TS_05_Changepassword\\20200525_082538"/>
+         <property name="logFiles" value="C:\\Users\\XuanNghiem\\git\\mattermost-katalon-testing\\Reports\\20200525_082538\\data-driven\\TS_05_Changepassword\\20200525_082538\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XuanNghiem - DESKTOP-OT9E64N.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="65e1f677c764810ab7c9820b19c7a625"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" time="45.795" classname="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 08:25:47 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_ChangePassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword
+
+2020-05-25 08:25:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 08:25:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 08:25:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 08:25:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 08:25:58 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:26:04 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:26:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:26:16 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:26:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:26:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:26:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:26:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:26:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:26:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:26:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), confirm_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:26:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:26:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:26:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 08:26:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" time="33.04" classname="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 08:26:33 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_ChangePassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword
+
+2020-05-25 08:26:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 08:26:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 08:26:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 08:26:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 08:26:38 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:26:45 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:26:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:26:54 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:26:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:26:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:27:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:27:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:27:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:27:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:27:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:27:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), confirm_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:27:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:27:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 08:27:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" time="36.379" classname="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 08:27:06 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_ChangePassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword
+
+2020-05-25 08:27:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 08:27:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 08:27:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 08:27:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 08:27:10 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:27:16 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:27:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:27:27 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:27:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:27:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:27:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:27:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:27:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:27:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:27:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:27:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:27:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:27:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:27:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), confirm_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:27:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:27:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 08:27:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" time="67.202" classname="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_05_ChangePassword.run(TC_05_ChangePassword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590369938992.run(TempTestSuite1590369938992.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-OT9E64N', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\XUANNG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 877b6e7bb0b421d9d57889846a36f9c4
+*** Element info: {Using=xpath, value=//div[@id='headerInfo']/button/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-25 08:27:42 - [TEST_CASE][FAILED] - Test Cases/Requirement_02/data-driven/TC_05_ChangePassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_05_ChangePassword.run(TC_05_ChangePassword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590369938992.run(TempTestSuite1590369938992.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-OT9E64N', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\XUANNG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 877b6e7bb0b421d9d57889846a36f9c4
+*** Element info: {Using=xpath, value=//div[@id='headerInfo']/button/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-05-25 08:27:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 08:27:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 08:27:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 08:27:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 08:27:47 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:27:56 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:27:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:28:06 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:28:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:28:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:28:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:28:15 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span")): Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_05_ChangePassword.run(TC_05_ChangePassword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590369938992.run(TempTestSuite1590369938992.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-OT9E64N', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\XUANNG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 877b6e7bb0b421d9d57889846a36f9c4
+*** Element info: {Using=xpath, value=//div[@id='headerInfo']/button/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1590367318570.run(Script1590367318570.groovy:31)
+	... 13 more
+)
+
+2020-05-25 08:28:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-05-25 08:28:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_05_ChangePassword.run(TC_05_ChangePassword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590369938992.run(TempTestSuite1590369938992.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-OT9E64N', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\XUANNG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 877b6e7bb0b421d9d57889846a36f9c4
+*** Element info: {Using=xpath, value=//div[@id='headerInfo']/button/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1590367318570.run(Script1590367318570.groovy:31)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2020-05-25 08:27:42 - [TEST_CASE][FAILED] - Test Cases/Requirement_02/data-driven/TC_05_ChangePassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_05_ChangePassword.run(TC_05_ChangePassword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590369938992.run(TempTestSuite1590369938992.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-OT9E64N', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\XUANNG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 877b6e7bb0b421d9d57889846a36f9c4
+*** Element info: {Using=xpath, value=//div[@id='headerInfo']/button/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" time="50.487" classname="Test Cases/Requirement_02/data-driven/TC_05_ChangePassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 08:28:50 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_ChangePassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword
+
+2020-05-25 08:28:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 08:28:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-05-25 08:28:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 08:28:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 08:28:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 08:28:56 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:29:18 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 08:29:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:29:28 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 08:29:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:29:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 08:29:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 08:29:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span' is clicked on
+
+2020-05-25 08:29:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 08:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 08:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 08:29:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:29:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 08:29:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:29:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 08:29:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), confirm_password): Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:29:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 08:29:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 08:29:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 08:29:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-25 08:25:46 - [TEST_SUITE][FAILED] - TS_05_Changepassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_05_ChangePassword.run(TC_05_ChangePassword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590369938992.run(TempTestSuite1590369938992.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-OT9E64N', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\XUANNG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 877b6e7bb0b421d9d57889846a36f9c4
+*** Element info: {Using=xpath, value=//div[@id='headerInfo']/button/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-25 08:25:46 - [TEST_SUITE][FAILED] - TS_05_Changepassword: Test Cases/Requirement_02/data-driven/TC_05_ChangePassword FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/data-driven/05_ChangePassword/Page_Town Square - Xun Nghim Mattermost/span'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_05_ChangePassword.run(TC_05_ChangePassword:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590369938992.run(TempTestSuite1590369938992.groovy:37)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-OT9E64N', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\XUANNG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52166}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 877b6e7bb0b421d9d57889846a36f9c4
+*** Element info: {Using=xpath, value=//div[@id='headerInfo']/button/span}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:789)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1150)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

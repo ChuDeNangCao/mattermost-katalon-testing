@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_02_UpdateProfile</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>171f0e47-1591-4b48-b676-67ea8169cf27</testSuiteGuid>
+   <testCaseLink>
+      <guid>7f0ee5d4-4339-4eab-b9e1-18e39f76d83d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Requirement_02/data-driven/TC_02_UpdateProfile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dc329b4d-38e7-4c58-9f72-e94b61eea446</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/updateProfileWithCSV</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>dc329b4d-38e7-4c58-9f72-e94b61eea446</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿firstname</value>
+         <variableId>66c21757-163b-4fdd-8072-0466d3772c1b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dc329b4d-38e7-4c58-9f72-e94b61eea446</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>dfdce060-364f-429b-b4cf-77deac9dc37b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_UpdateProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be9a4b8c-028f-4797-9728-382c9777c51c</testCaseGuid>
+   <variable>
+      <defaultValue>'Nguyễn'</defaultValue>
+      <description></description>
+      <id>66c21757-163b-4fdd-8072-0466d3772c1b</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Xuân Nghiêm'</defaultValue>
+      <description></description>
+      <id>dfdce060-364f-429b-b4cf-77deac9dc37b</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_05_ChangePassword" time="156.879" tests="5" failures="0" errors="0">
+   <testsuite name="TS_05_ChangePassword" tests="5" failures="0" errors="0" time="156.879" timestamp="2020-05-25 09:59:49" hostname="XuanNghiem - DESKTOP-OT9E64N.mshome.net" id="Test Suites/data-driven/TS_05_ChangePassword">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XuanNghiem\\git\\mattermost-katalon-testing\\Reports\\20200525_095945\\data-driven\\TS_05_ChangePassword\\20200525_095945"/>
+         <property name="logFiles" value="C:\\Users\\XuanNghiem\\git\\mattermost-katalon-testing\\Reports\\20200525_095945\\data-driven\\TS_05_ChangePassword\\20200525_095945\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XuanNghiem - DESKTOP-OT9E64N.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="db0fdc4fb0566be62ce208a5108b13ae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" time="34.501" classname="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 09:59:50 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_Changepassword: Test Cases/Requirement_02/data-driven/TC_05_Changepassword
+
+2020-05-25 09:59:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 09:59:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 09:59:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 09:59:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 09:59:59 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:00:04 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:00:14 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:00:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:00:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:00:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:00:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:00:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:00:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:00:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:00:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), retype_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:00:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:00:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 10:00:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" time="31.765" classname="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 10:00:25 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_Changepassword: Test Cases/Requirement_02/data-driven/TC_05_Changepassword
+
+2020-05-25 10:00:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 10:00:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 10:00:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 10:00:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 10:00:28 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:00:35 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:00:45 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:00:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:00:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:00:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:00:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:00:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:00:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:00:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:00:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), retype_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:00:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:00:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 10:00:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" time="30.627" classname="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 10:00:56 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_Changepassword: Test Cases/Requirement_02/data-driven/TC_05_Changepassword
+
+2020-05-25 10:00:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 10:00:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 10:00:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 10:01:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 10:01:01 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:01:07 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:01:16 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:01:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:01:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:01:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:01:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:01:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:01:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:01:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:01:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:01:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), retype_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:01:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:01:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:01:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 10:01:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" time="28.747" classname="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 10:01:27 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_Changepassword: Test Cases/Requirement_02/data-driven/TC_05_Changepassword
+
+2020-05-25 10:01:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 10:01:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 10:01:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 10:01:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 10:01:31 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:01:37 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:01:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:01:46 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:01:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:01:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:01:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:01:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:01:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:01:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:01:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:01:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:01:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), retype_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:01:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:01:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:01:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 10:01:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" time="30.069" classname="Test Cases/Requirement_02/data-driven/TC_05_Changepassword" status="PASSED">
+         <system-out><![CDATA[2020-05-25 10:01:56 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_05_Changepassword: Test Cases/Requirement_02/data-driven/TC_05_Changepassword
+
+2020-05-25 10:01:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 10:01:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 10:01:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 10:02:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 10:02:00 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:02:07 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 10:02:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:02:16 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 10:02:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:02:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 10:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 10:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/svg' is clicked on
+
+2020-05-25 10:02:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Account Settings' is clicked on
+
+2020-05-25 10:02:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/button_Security' is clicked on
+
+2020-05-25 10:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Edit' is clicked on
+
+2020-05-25 10:02:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword"), password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:02:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Current Password_currentPassword'
+
+2020-05-25 10:02:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword"), new_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:02:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_New Password_newPassword'
+
+2020-05-25 10:02:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword"), retype_password): Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:02:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/input_Retype New Password_confirmPassword'
+
+2020-05-25 10:02:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save")): Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/05_Changepassword/Page_Town Square - Xun Nghim Mattermost/span_Save' is clicked on
+
+2020-05-25 10:02:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 10:02:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-25 09:59:49 - [TEST_SUITE][PASSED] - TS_05_ChangePassword: Test Cases/Requirement_02/data-driven/TC_05_Changepassword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
