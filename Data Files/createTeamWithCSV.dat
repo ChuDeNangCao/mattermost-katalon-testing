@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>175cd17a-fabc-4a81-a8f1-483ca65a7813</dataFileGUID>
-   <dataSourceUrl>C:\Users\XuanNghiem\Desktop\create-team.csv</dataSourceUrl>
+   <dataSourceUrl>Data Files/CSV Files/create-team.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
