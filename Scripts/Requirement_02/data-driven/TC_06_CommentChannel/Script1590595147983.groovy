@@ -20,20 +20,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-cdnc.herokuapp.com/login')
 
-WebUI.setText(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Mattermost/input_All team communication in one place s_703ef5'), 
+WebUI.setText(findTestObject('Object Repository/data-driven/06_CommentChannel/Page_Mattermost/input_All team communication in one place s_703ef5'), 
     'xuanghjem')
 
-WebUI.setEncryptedText(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/data-driven/06_CommentChannel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
     'vR0tJW96iAE=')
 
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/data-driven/06_CommentChannel/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/span_Town Square_channelHeaderDropdownIcon'))
-
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/span_Rename Channel'))
-
-WebUI.setText(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/input_Display Name_display_name'), 
-    channelName)
-
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/data-driven/06_CommentChannel/Page_Thanh rename Channel - minh thuy Mattermost/div_Su'))
+for (def rowNum = 1; rowNum <= findTestData('commentChannelWithInternal').getRowNumbers(); rowNum++) {
+WebUI.setText(findTestObject('Object Repository/data-driven/06_CommentChannel/Page_Town Square - Sun Mattermost/textarea_Write to Town Square_post_textbox'), 
+     findTestData('commentChannelWithInternal').getValue(1, rowNum))
+WebUI.sendKeys(findTestObject('Object Repository/data-driven/06_CommentChannel/Page_Town Square - Sun Mattermost/textarea_Write to Town Square_post_textbox'), Keys.chord(Keys.ENTER))
+Thread.sleep(3000)
+}
+WebUI.closeBrowser()
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Sign in</name>
    <tag></tag>
-   <elementGuidId>f689589d-a24f-4fc1-9282-0f3bb4c119db</elementGuidId>
+   <elementGuidId>50aec415-f041-4662-aa58-d1ee603cf977</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

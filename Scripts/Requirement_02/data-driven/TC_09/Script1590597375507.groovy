@@ -20,20 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-cdnc.herokuapp.com/login')
 
-WebUI.setText(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-    'xuanghjem')
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'xuanghjem')
 
-WebUI.setEncryptedText(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-    'vR0tJW96iAE=')
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'vR0tJW96iAE=')
 
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/span_Town Square_channelHeaderDropdownIcon'))
+WebUI.click(findTestObject('Page_Thanh rename Channel - minh thuy Mattermost/div_Su'))
 
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/span_Rename Channel'))
+WebUI.click(findTestObject('Object Repository/data-driven/07_ReplyComment/Page_Town Square - Sun Mattermost/Page_Town Square - Sun Mattermost/button_xuanghjem_CENTER_button_i4mpd15cptb3_5cc48e'))
 
-WebUI.setText(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/input_Display Name_display_name'), 
-    channelName)
-
-WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/32_Rename_channel/Page_Town Square - minh thuy Mattermost/span_Save'))
+WebUI.click(findTestObject('Object Repository/data-driven/07_ReplyComment/Page_Town Square - Sun Mattermost/Page_Town Square - Sun Mattermost/span_Reply'))
 
