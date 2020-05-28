@@ -33,3 +33,5 @@ WebUI.click(findTestObject('Object Repository/data-driven/36_Mute_channel/Page_T
 
 WebUI.click(findTestObject('Object Repository/data-driven/36_Mute_channel/Page_Thanh rename Channel - minh thuy Mattermost/span_Mute Channel'))
 
+WebUI.closeBrowser()
+

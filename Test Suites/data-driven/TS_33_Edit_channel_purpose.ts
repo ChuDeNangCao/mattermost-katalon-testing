@@ -15,5 +15,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Requirement_02/data-driven/TC_33_Edit_channel_purpose</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d6549ed8-bbb9-45cd-b9f5-187bf1f5d305</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/edit_channel_purposeWithInternal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d6549ed8-bbb9-45cd-b9f5-187bf1f5d305</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>channelPurpose</value>
+         <variableId>73beb1bb-a581-4590-abda-3f79c6090f40</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

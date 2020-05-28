@@ -33,3 +33,5 @@ WebUI.click(findTestObject('Object Repository/data-driven/35_Unmute_channel/Page
 
 WebUI.click(findTestObject('Object Repository/data-driven/35_Unmute_channel/Page_Thanh rename Channel - minh thuy Mattermost/span_Unmute Channel'))
 
+WebUI.closeBrowser()
+

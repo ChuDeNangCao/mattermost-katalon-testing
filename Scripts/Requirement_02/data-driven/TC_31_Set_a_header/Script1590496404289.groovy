@@ -35,3 +35,5 @@ WebUI.setText(findTestObject('data-driven/31_Set_a_header/Page_Town Square - min
 
 WebUI.click(findTestObject('data-driven/31_Set_a_header/Page_Town Square - minh thuy Mattermost/span_Save'))
 
+WebUI.closeBrowser()
+

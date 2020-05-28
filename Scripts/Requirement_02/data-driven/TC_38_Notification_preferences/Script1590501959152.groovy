@@ -41,3 +41,5 @@ WebUI.click(findTestObject('data-driven/38_Notification_Preferences/Page_Thanh r
 
 WebUI.click(findTestObject('data-driven/38_Notification_Preferences/Page_Thanh rename Channel - minh thuy Mattermost/span_'))
 
+WebUI.closeBrowser()
+

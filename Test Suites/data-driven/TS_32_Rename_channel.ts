@@ -33,5 +33,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Requirement_02/data-driven/TC_32_Rename_Channel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>debe641e-0adc-4135-8eca-ee98fca3020f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/rename_channelWithInternal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>debe641e-0adc-4135-8eca-ee98fca3020f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>channelName</value>
+         <variableId>ab53a1bf-310e-4ed0-b05f-30a0203187cd</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

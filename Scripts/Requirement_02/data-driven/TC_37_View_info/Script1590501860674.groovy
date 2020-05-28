@@ -35,3 +35,5 @@ WebUI.click(findTestObject('Object Repository/data-driven/37_View_info/Page_Than
 
 WebUI.click(findTestObject('Object Repository/data-driven/37_View_info/Page_Thanh rename Channel - minh thuy Mattermost/span_'))
 
+WebUI.closeBrowser()
+

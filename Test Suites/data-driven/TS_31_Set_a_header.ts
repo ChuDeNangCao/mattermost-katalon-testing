@@ -15,5 +15,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Requirement_02/data-driven/TC_31_Set_a_header</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b243f023-14be-40bd-aa7d-c1d086bf5fa3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/set_a_headerWithInternal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b243f023-14be-40bd-aa7d-c1d086bf5fa3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>content</value>
+         <variableId>ff792f08-100b-4c6d-b7ca-19f9ab230e0f</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

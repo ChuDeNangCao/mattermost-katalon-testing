@@ -38,3 +38,5 @@ WebUI.setText(findTestObject('data-driven/33_Edit_channel_purpose/Page_Thanh ren
 
 WebUI.click(findTestObject('data-driven/33_Edit_channel_purpose/Page_Thanh rename Channel - minh thuy Mattermost/span_Save'))
 
+WebUI.closeBrowser()
+
