@@ -20,15 +20,24 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mattermost-cdnc.herokuapp.com/login')
 
-WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'xuanghjem')
+WebUI.setText(findTestObject('Object Repository/data-driven/10_SearchOption/Page_Mattermost/input_All team communication in one place s_703ef5'), 
+    'xuanghjem')
 
-WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'vR0tJW96iAE=')
+WebUI.setEncryptedText(findTestObject('Object Repository/data-driven/10_SearchOption/Page_Mattermost/input_All team communication in one place s_2f2733'), 
+    'vR0tJW96iAE=')
 
-WebUI.click(findTestObject('Page_Mattermost/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/data-driven/10_SearchOption/Page_Mattermost/span_Sign in'))
 
-WebUI.click(findTestObject('Page_Thanh rename Channel - minh thuy Mattermost/div_Su'))
+WebUI.click(findTestObject('Object Repository/data-driven/10_SearchOption/Page_Thanh rename Channel - minh thuy Mattermost/div_Su'))
 
-WebUI.click(findTestObject('Object Repository/data-driven/07_ReplyComment/Page_Town Square - Sun Mattermost/Page_Town Square - Sun Mattermost/button_xuanghjem_CENTER_button_i4mpd15cptb3_5cc48e'))
+WebUI.click(findTestObject('Object Repository/data-driven/10_SearchOption/Page_Town Square - Sun Mattermost/svg'))
+for (def rowNum = 1; rowNum <= findTestData('searchOptionInternal').getRowNumbers(); rowNum++) {
+WebUI.setText(findTestObject('Object Repository/data-driven/10_SearchOption/Page_Town Square - Sun Mattermost/input_Add a channel description_searchBox'), 
+    findTestData('searchOptionInternal').getValue(1, rowNum))
 
-WebUI.click(findTestObject('Object Repository/data-driven/07_ReplyComment/Page_Town Square - Sun Mattermost/Page_Town Square - Sun Mattermost/span_Reply'))
+WebUI.sendKeys(findTestObject('Object Repository/data-driven/10_SearchOption/Page_Town Square - Sun Mattermost/input_Add a channel description_searchBox'), 
+    Keys.chord(Keys.ENTER))
+Thread.sleep(3000)
+}
+WebUI.closeBrowser()
 
