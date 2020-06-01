@@ -1,5 +1,0 @@
-{"testCaseName":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam - Iteration 1","testCaseId":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam","bindedValues":{"team_name":"\u0027tony stark\u0027"}}
-{"testCaseName":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam - Iteration 2","testCaseId":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam","bindedValues":{"team_name":"\u0027hulk\u0027"}}
-{"testCaseName":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam - Iteration 3","testCaseId":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam","bindedValues":{"team_name":"\u0027spider man\u0027"}}
-{"testCaseName":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam - Iteration 4","testCaseId":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam","bindedValues":{"team_name":"\u0027thor\u0027"}}
-{"testCaseName":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam - Iteration 5","testCaseId":"Test Cases/Requirement_02/data-driven/TC_03_CreateATeam","bindedValues":{"team_name":"\u0027american\u0027"}}
