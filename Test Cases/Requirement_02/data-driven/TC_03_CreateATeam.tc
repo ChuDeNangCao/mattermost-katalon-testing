@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_03_CreateATeam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e981d14-b42d-459d-b5f0-fa9d849fa4b2</testCaseGuid>
+   <variable>
+      <defaultValue>'team\'s name'</defaultValue>
+      <description></description>
+      <id>5f0197d8-8f2e-43c6-9ce5-1d69b4919276</id>
+      <masked>false</masked>
+      <name>team_name</name>
+   </variable>
+</TestCaseEntity>

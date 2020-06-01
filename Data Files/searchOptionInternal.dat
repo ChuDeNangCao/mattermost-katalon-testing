@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>searchOptionInternal</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>052d7b49-dfd8-4afc-a443-5612e6edf516</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>on%3A+2020-05-28+</data>
+   <data>before%3A+2020-05-28+</data>
+   <data>in%3A+town-square+</data>
+   <data>from%3A+sonhua+</data>
+   <data>from%3A+me+</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Option</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

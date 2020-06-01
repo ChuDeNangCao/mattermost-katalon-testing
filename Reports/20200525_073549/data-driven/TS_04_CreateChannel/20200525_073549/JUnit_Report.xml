@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_04_CreateChannel" time="182.628" tests="5" failures="0" errors="0">
+   <testsuite name="TS_04_CreateChannel" tests="5" failures="0" errors="0" time="182.628" timestamp="2020-05-25 07:35:54" hostname="XuanNghiem - DESKTOP-OT9E64N.mshome.net" id="Test Suites/data-driven/TS_04_CreateChannel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\XuanNghiem\\git\\mattermost-katalon-testing\\Reports\\20200525_073549\\data-driven\\TS_04_CreateChannel\\20200525_073549"/>
+         <property name="logFiles" value="C:\\Users\\XuanNghiem\\git\\mattermost-katalon-testing\\Reports\\20200525_073549\\data-driven\\TS_04_CreateChannel\\20200525_073549\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="XuanNghiem - DESKTOP-OT9E64N.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="e8d770ddedf1620d327695df0680c383"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" time="44.154" classname="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" status="PASSED">
+         <system-out><![CDATA[2020-05-25 07:35:55 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel: Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel
+
+2020-05-25 07:35:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 07:35:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 07:35:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 07:36:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 07:36:04 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:36:16 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:36:24 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:36:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733"), "vR0tJW96iAE="): Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:36:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:36:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName"), channel_name): Text 'general' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:36:30 - [MESSAGE][PASSED] - Text 'general' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:36:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1"), description): Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:36:36 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:36:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1"), header): Text 'leader: Xuân Nghiêm' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:36:37 - [MESSAGE][PASSED] - Text 'leader: Xuân Nghiêm' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:36:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 07:36:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" time="32.932" classname="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" status="PASSED">
+         <system-out><![CDATA[2020-05-25 07:36:39 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel: Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel
+
+2020-05-25 07:36:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 07:36:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 07:36:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 07:36:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 07:36:43 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:36:48 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:36:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:36:57 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:36:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733"), "vR0tJW96iAE="): Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:36:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:37:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName"), channel_name): Text 'dev' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:37:03 - [MESSAGE][PASSED] - Text 'dev' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:37:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1"), description): Text 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:37:09 - [MESSAGE][PASSED] - Text 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1"), header): Text 'leader: Hoàng Thiên' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:37:10 - [MESSAGE][PASSED] - Text 'leader: Hoàng Thiên' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:37:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 07:37:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" time="33.258" classname="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" status="PASSED">
+         <system-out><![CDATA[2020-05-25 07:37:12 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel: Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel
+
+2020-05-25 07:37:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 07:37:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 07:37:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 07:37:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 07:37:16 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:37:22 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:37:30 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:37:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733"), "vR0tJW96iAE="): Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:37:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:37:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName"), channel_name): Text 'test' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:37:36 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1"), description): Text '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:37:42 - [MESSAGE][PASSED] - Text '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:37:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1"), header): Text 'leader: Huy Lịch' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:37:43 - [MESSAGE][PASSED] - Text 'leader: Huy Lịch' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:37:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 07:37:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" time="37.428" classname="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" status="PASSED">
+         <system-out><![CDATA[2020-05-25 07:37:45 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel: Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel
+
+2020-05-25 07:37:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 07:37:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 07:37:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 07:37:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 07:37:50 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:37:56 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:37:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:38:07 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:38:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733"), "vR0tJW96iAE="): Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:38:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName"), channel_name): Text 'docs' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:38:13 - [MESSAGE][PASSED] - Text 'docs' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1"), description): Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:38:20 - [MESSAGE][PASSED] - Text 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:38:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1"), header): Text 'leader: Đức Truyền' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:38:21 - [MESSAGE][PASSED] - Text 'leader: Đức Truyền' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:38:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 07:38:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" time="33.477" classname="Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel" status="PASSED">
+         <system-out><![CDATA[2020-05-25 07:38:23 - [TEST_CASE][PASSED] - Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel: Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel
+
+2020-05-25 07:38:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-05-25 07:38:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-25 07:38:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-25 07:38:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-05-25 07:38:27 - [TEST_STEP][PASSED] - navigateToUrl("https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square"): Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:38:33 - [MESSAGE][PASSED] - Navigate to 'https://mattermost-cdnc.herokuapp.com/xuan-nghiem-210/channels/town-square' successfully
+
+2020-05-25 07:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5"), "xuanghjem"): Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:38:41 - [MESSAGE][PASSED] - Text 'xuanghjem' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_703ef5'
+
+2020-05-25 07:38:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733"), "vR0tJW96iAE="): Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:38:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/input_All team communication in one place s_2f2733'
+
+2020-05-25 07:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Mattermost/span_Sign in' is clicked on
+
+2020-05-25 07:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_' is clicked on
+
+2020-05-25 07:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName"), channel_name): Text 'Q&A' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:38:47 - [MESSAGE][PASSED] - Text 'Q&A' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/input_Name_newChannelName'
+
+2020-05-25 07:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1"), description): Text 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:38:53 - [MESSAGE][PASSED] - Text 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_L knh kt ni_1'
+
+2020-05-25 07:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1"), header): Text 'leader: Văn Thìn' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:38:54 - [MESSAGE][PASSED] - Text 'leader: Văn Thìn' is set on object 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/textarea_leader Xun Nghi_1'
+
+2020-05-25 07:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel")): Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/data-driven/04_CreateAChannel/Page_Town Square - Xun Nghim Mattermost/span_Create Channel' is clicked on
+
+2020-05-25 07:38:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-25 07:38:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-25 07:35:54 - [TEST_SUITE][PASSED] - TS_04_CreateChannel: Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

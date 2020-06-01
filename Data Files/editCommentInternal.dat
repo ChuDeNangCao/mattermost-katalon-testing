@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>editCommentInternal</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>1932689a-413a-4d71-9e57-98e380d911f0</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Edit%3A+Ch%C3%A0o+c%C3%A1c+b%E1%BA%A1n</data>
+   <data>Edit%3A+Xin+ch%C3%A0o+%C4%91%E1%BA%BFn+v%E1%BB%9Bi+channel+c%E1%BB%A7a+t%C3%B4i</data>
+   <data>Edit%3A+YES%2FNO</data>
+   <data>Edit%3A+C%C3%B3+th%E1%BB%83+tr%C3%B2+truy%E1%BB%87n+%E1%BB%9F+%C4%91%C3%A2y+c%C3%B9ng+t%C3%B4i</data>
+   <data>Edit%3A+B%E1%BA%A1n+c%C3%B3+th%E1%BB%83+%C4%91%E1%BA%B7t+1+s%E1%BB%91+c%C3%A2u+h%E1%BB%8Fi+n%E1%BA%BFu+mu%E1%BB%91n</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Edit</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
