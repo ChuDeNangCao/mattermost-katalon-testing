@@ -14,6 +14,6 @@
       <guid>e31b8947-ce30-465f-8c28-8ba3acfca3e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_39_View_Members</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_39_View_Members</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

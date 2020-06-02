@@ -14,6 +14,6 @@
       <guid>ae27abce-cae0-4cb3-85fa-9b502f18a0c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_38_Notification_preferences</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_38_Notification_preferences</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

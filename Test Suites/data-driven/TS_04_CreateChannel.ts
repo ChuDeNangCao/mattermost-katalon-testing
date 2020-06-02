@@ -14,7 +14,7 @@
       <guid>9e851b6d-b977-4b4e-87c2-008525d881cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_04_CreateAChannel</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_04_CreateAChannel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>24e52583-8b5c-47bf-aaf9-8e58dae71414</id>

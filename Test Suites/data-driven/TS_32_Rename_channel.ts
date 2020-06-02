@@ -14,7 +14,7 @@
       <guid>9b30cb2b-d26e-4f88-83a1-cd771101bdec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_01_Login</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_01_Login</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -32,7 +32,7 @@
       <guid>31904d14-d2e1-43dc-94f4-466d105a09b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_32_Rename_Channel</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_32_Rename_Channel</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>debe641e-0adc-4135-8eca-ee98fca3020f</id>

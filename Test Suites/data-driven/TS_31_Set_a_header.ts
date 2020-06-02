@@ -14,7 +14,7 @@
       <guid>289b498e-f128-4b19-bf25-68a34f78efc9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_31_Set_a_header</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_31_Set_a_header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b243f023-14be-40bd-aa7d-c1d086bf5fa3</id>

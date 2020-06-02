@@ -14,7 +14,7 @@
       <guid>7f0ee5d4-4339-4eab-b9e1-18e39f76d83d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_02_UpdateProfile</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_02_UpdateProfile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dc329b4d-38e7-4c58-9f72-e94b61eea446</id>

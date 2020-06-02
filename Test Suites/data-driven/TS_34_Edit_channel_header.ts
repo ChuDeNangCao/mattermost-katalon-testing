@@ -14,6 +14,6 @@
       <guid>b6beee6c-1a54-4505-9ff7-16cc494c736f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_34_Edit_channel_header</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_34_Edit_channel_header</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

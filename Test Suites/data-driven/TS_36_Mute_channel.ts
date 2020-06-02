@@ -14,6 +14,6 @@
       <guid>29e77a18-7fa6-4513-96e5-15dc711fb208</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_36_Mute_channel</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_36_Mute_channel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

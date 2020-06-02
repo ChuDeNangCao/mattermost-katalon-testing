@@ -14,7 +14,7 @@
       <guid>8dc616fb-f0c6-4f24-8851-7ddd0ccdfc66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_33_Edit_channel_purpose</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_33_Edit_channel_purpose</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d6549ed8-bbb9-45cd-b9f5-187bf1f5d305</id>

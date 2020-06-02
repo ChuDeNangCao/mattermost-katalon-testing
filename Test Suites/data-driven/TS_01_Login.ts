@@ -14,7 +14,7 @@
       <guid>c730e5cd-9601-451b-8b77-08921d9db9e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_01_Login</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_01_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>56fef619-7269-40a1-94b3-21804f5bf14f</id>

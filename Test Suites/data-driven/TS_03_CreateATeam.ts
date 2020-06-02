@@ -14,7 +14,7 @@
       <guid>c8223379-bfb6-499f-b673-7f57b74269b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_03_CreateATeam</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_03_CreateATeam</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6e180f86-e7c9-435e-ba67-bf0884b35899</id>

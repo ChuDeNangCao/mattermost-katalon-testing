@@ -14,6 +14,6 @@
       <guid>e968a96e-9b59-4f94-bf18-74fc367765d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Requirement_02/data-driven/TC_35_Unmute_channel</testCaseId>
+      <testCaseId>Test Cases/Requirement_02/TC_35_Unmute_channel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
